@@ -1,0 +1,66 @@
+Certainly! Here are the user stories with their corresponding acceptance criteria:
+
+### User Stories for Reducing Cloud Infrastructure Cost
+
+1. **Identify and Consolidate Cloud Resources:**
+   - Analyze the current utilization of cloud resources to find opportunities for consolidation and simplify the environment.
+   - **Acceptance Criteria:**
+     - A comprehensive report on current cloud resources and their usage is generated.
+     - Opportunities for consolidation are identified and listed.
+     - A consolidation plan is proposed with estimated cost savings.
+
+2. **Optimize Lower Environment Instances:**
+   - Reduce the number of running instances in lower environments to cut costs while maintaining necessary development and testing capabilities.
+   - **Acceptance Criteria:**
+     - Current instance usage in lower environments is reviewed.
+     - The minimum number of instances required for development and testing is determined.
+     - Changes are implemented to reduce instances, with cost impact monitored.
+
+3. **Track and Measure Cloud Costs:**
+   - Track and report on cloud costs related to running FX to measure resource usage and identify areas for cost reduction.
+   - **Acceptance Criteria:**
+     - Cost tracking and reporting for cloud resources used by FX are set up.
+     - Dashboards are created to visualize cost data and resource usage.
+     - Regular reviews of cost data are conducted to assess progress towards cost reduction goals.
+
+4. **Reduce Deployment Frequency:**
+   - Minimize the number of deployments required to support all environments to streamline processes and reduce costs.
+   - **Acceptance Criteria:**
+     - Current deployment processes are analyzed to identify inefficiencies.
+     - Changes are implemented to reduce deployment frequency while maintaining environment stability.
+     - The impact on deployment frequency and costs is measured.
+
+5. **Decrease Deployment Time:**
+   - Reduce the time needed for application and infrastructure deployments to speed up releases and lower operational overhead.
+   - **Acceptance Criteria:**
+     - Current deployment times for application and infrastructure are reviewed.
+     - Improvements are identified and implemented to decrease deployment times.
+     - Deployment times are monitored to ensure they meet new target benchmarks.
+
+6. **Document Cloud Infrastructure Setup:**
+   - Create and maintain detailed documentation of the current cloud infrastructure setup, including diagrams and resource descriptions.
+   - **Acceptance Criteria:**
+     - Detailed documentation of the current cloud infrastructure setup is created.
+     - Documentation includes diagrams and descriptions of resources and their interactions.
+     - Documentation is kept up-to-date and accessible to relevant stakeholders.
+
+7. **Consolidate Global Features and Solutions:**
+   - Consolidate global features and solutions, such as support, SEO, and analytics, to reduce duplicated efforts and streamline infrastructure.
+   - **Acceptance Criteria:**
+     - Global features and solutions currently duplicated are identified.
+     - A consolidation plan is developed and implemented for these features and solutions.
+     - The impact on efficiency and resource usage is measured.
+
+8. **Support New Canada Site:**
+   - Ensure the cloud infrastructure is capable of supporting the new Canada site efficiently and effectively.
+   - **Acceptance Criteria:**
+     - The current infrastructure is assessed to confirm it can accommodate the new Canada site.
+     - Necessary adjustments or upgrades are made to support the new site.
+     - The site’s performance and integration with existing infrastructure are tested.
+
+9. **Consolidate Global Search Platform Capability:**
+   - Consolidate global search platform capabilities to eliminate redundant search solutions and improve search efficiency.
+   - **Acceptance Criteria:**
+     - Existing search platforms and their capabilities are reviewed.
+     - A plan is developed to consolidate search functionalities into a single solution.
+     - The consolidation is implemented, and the new solution meets performance and functionality requirements.

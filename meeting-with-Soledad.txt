@@ -1,0 +1,14 @@
+lista de capabilities:
+
+Argentina
+
+2024:
+Product Recommendation: in process
+  Experto Bayer y Climate
+
+
+In process: Post Auth (MVP in November)
+
+2025:
+  Transactional Information: information about their account, purchases
+

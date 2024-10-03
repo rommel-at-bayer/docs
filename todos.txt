@@ -1,0 +1,54 @@
+Decision tree/flow chart, e.g. https://farmer-exp-docs.agro.services/docs/project-setup/farmer-exp-core/testing/
+(seamless diagram)
+     Fetching from spectrum 
+     Updating a secret: have it in vault if secret or in the config if not secret
+
+
+where do I store the variables?
+what type of variables should be stored in those locations
+How do I pull envs based on the three use cases (local, build and runtime)
+
+
+Proposal:
+
+Type of environment variables:
+
+1. Environment Variables used in the browser
+  - They start with NEXT_PUBLIC_
+  - They need to be set at build time
+  - An example is NEXT_PUBLIC_FARMER_BFF_API, which points to the bff api in the different environments.
+
+2. Environment variables used by NodeJS
+  - They can be set during deploy and run time
+
+
+Adding environment variables:
+
+is it a browser environment variable? Yes: make sure it starts with NEXT_PUBLIC_. No: 
+Is it a secret like password, or api key? then add it in vault in the corresponding path.
+Add to the spectrum spectrum.config.json file for your country in the prod/non-prod/dev part of the EnvironmentVariables 
+
+
+Older comment 
+
+1. For the browser **development** environment, have file **/apps/my-app/.env.development** with the environment variables needed. This file should include the *NEXT_PUBLIC_* environment variables being used, and any other variables used in the client components, e.g.
+`NEXT_PUBLIC_FARMER_BFF_API=https://bff-api.farmer-dev.bayer.com  
+APP_CURRENCY=CAD  
+`  
+
+2. For the browser **test/non-prod** environment, have file **/apps/my-app/.env.test** with the environment variables needed. This file should include the *NEXT_PUBLIC_* environment variables being used, and any other variables used in the client components, e.g.  
+`NEXT_PUBLIC_FARMER_BFF_API=https://bff-api.farmer-np.bayer.com  
+APP_CURRENCY=CAD  
+`
+
+3. For the browser **production** environment, have file **/apps/my-app/.env** with the environment variables needed. This file should include the *NEXT_PUBLIC_* environment variables being used, and any other variables used in the client components, e.g.  
+`NEXT_PUBLIC_FARMER_BFF_API=https://bff-api.farmer.bayer.com  
+APP_CURRENCY=CAD  
+`
+
+4. For browser environments, for countries within a region, have the development, test, and prod files be in the envs folder within the app. e.g  
+**apps/farmer-exp-emea/envs/farmer-exp-es.development** (development)  
+**apps/farmer-exp-emea/envs/farmer-exp-es.test** (test/non-prod)  
+**apps/farmer-exp-emea/envs/farmer-exp-es** (prod)  
+
+5. For environment variables used in the Node.js environment, use the spectrum folder. These are going to be set when we are building the docker container and we are deploying to Fargate our application. Best practice is to not include any variable that starts with *NEXT_PUBLIC_* on the files in this folder, since they are likely to be ignored.

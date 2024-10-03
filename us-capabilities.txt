@@ -1,0 +1,32 @@
+CP-1: Product & Service Information Management
+  product Compare (brands, crop protection, location aware, i.e. needs zipcode)  -> bff getProducts
+  product images -> aem
+  product search -> open search
+
+CP-2: Account Creation and Maintenance
+  account + user profile:   https://fx-postauth-dev.agro.services/api/v1
+  saved products (auth) -> bff
+  userProfile (add, update, insert) -> bff
+
+CP-3: Agronomic Support
+  search -> cloudsearch based on domain (articles, news, products)
+
+CP-4: Farmer Recommendation Management
+  similar products -> aurora
+
+CP-5: Loyalty Management
+  bayer plus enrollment -> bff ConfirmEnrollBPR
+  bayer plus reward calculator -> (csv file in aem)
+  bayer plus reward redemption -> bff GetRetailersByState
+
+CP-6: Sales Enablement
+  sales contacts (where to buy) -> bff (rest?)
+
+CP-7: Global Tools
+  global-components -> home page (inc. launch darkly)
+  issues -> report issues (Innovation Sprint)
+  zipToInfo -> loc 360
+  coordsToZip -> loc 360
+  youtube -> google api
+  marketo -> marketo api (by adobe)
+  metrics -> datadog

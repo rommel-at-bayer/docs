@@ -1,0 +1,39 @@
+Farmer Experience Platform
+Farmer Experience Sentinels
+Farmer Experience Admin
+  AWS Dev: all
+  AWS NP: all
+  AWS Prod: all
+  Datadog: Dev
+  Dome9: All - Read only
+  Fort Knox
+  Vault: Bastion and Farmer Exp Admin
+
+Farmer Experience Devs
+  AWS Dev: developer-role
+  AWS NP: external-role
+  AWS Prod: external-role
+  Datadog: Dev
+  Dome9: All - Read only
+  Fort Knox
+  Vault: Bastion and Farmer Exp Admin
+
+* Farmer Experience External
+  AWS Dev: external-role
+  AWS NP: external-role
+  AWS Prod: external-role
+  Vault: Farmer Exp External
+
+Farmer Experience Dev Team
+  Dome9: All - Read only
+  Fort Knox
+  Vault Bastion
+
+Farmer Experience Team
+Farmer Experience Designers
+  No entitlements
+
+* Farmer Experience PM
+  Vault: Farmer Exp External
+
+

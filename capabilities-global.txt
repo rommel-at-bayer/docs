@@ -1,0 +1,17 @@
+CP-2: Account Creation and Maintenance
+CP-3: Agronomic Support
+BR Farmer XP: Commercial Campaigns Evolution (Iteration 1 of 2)
+Campaign Management
+Collection Management
+Consent/ Preference Management
+Credit Management
+Customer/ Account Relationship Management
+Customer Intelligence Management
+Digital Identity & Access Management
+CP-4: Farmer Recommendation Management
+Interaction Management
+CP-5: Loyalty Management
+Order Entry & Management
+CP-1: Product & Service Information Management
+Rebate Management
+CP-6: Sales Enablement

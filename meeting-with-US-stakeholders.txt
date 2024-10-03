@@ -1,0 +1,51 @@
+Capability: 
+
+  Made out of People + Process + Data + Systems
+  It's a Unit of work that can stand on its own or connect/join to other units.
+  A seamless experience is having multiple capabilities joined together to deliver a consistent experience.
+
+US:
+
+Farmer Experience:
+
+  Product Information (product Experience) (Data Driven)
+
+    Capabilities:
+      Crop protection Catalog
+      Seed Catalog
+        Brand Selector (e.g)
+      Product Cards/Product Details Page
+        Download individual products (PDF)
+      Product Compare
+        Download Side By Side Comparison (PDF)
+
+  Tools:
+    Local Yield Results
+    Trait Tools (find your corn trait tools, corn trait comparison tool)
+    Wheat Profitability calculator
+    Where to buy (find your Dealer)
+
+  Articles/Library Organization:
+    Agronomy
+    News
+    Crop Protection Trials
+
+  Authored Pages (Content Pages)
+
+  Platform Driven:
+    Location services
+    Search
+    Navigation
+    
+  Global Header
+  Global Footer
+    Contact Us/Customer Service
+  Communication Preferences
+
+  Post Auth:
+    TBD
+
+
+
+
+

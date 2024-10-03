@@ -1,0 +1,13 @@
+Add OutOfOffice to FX platform announcements
+Refinement: getting ready for next sprint
+Grooming: Adding new stories to features
+
+
+Centralized documentation: backstage, github issues, github discussions
+Onboarding: documentation
+Platform maintenance: deployments, configuration, environment variables, CI/CD
+Analytics
+Automating: onboarding, secret rotation, 
+collective effort
+
+

@@ -1,0 +1,39 @@
+you can use cloud front functions or lambda edge
+
+start with pages and see what 
+
+capabilities is the list on the right of the diagram
+
+multiple apps using the same capabilities
+
+countries use different capabilities
+
+which app is using which capability
+
+need to document capabilities per country
+
+
+Goal: understanding what is needed to setup a new market
+
+Data, Infrastructure and Capabilities
+
+Start, Setup, Scale, Sustain
+
+Reach out to Ashwina, she came up with the list of capabilities
+
+Catalog what countries are using what capabilities
+
+_______________________
+
+Staff Engineers
+
+Bob - Post-Auth
+Gopi - AEM
+Michal - Products
+Mauricio - Impulso
+Marcin - Product
+
+
+Makocat: supports US
+Pandacat: supports EMEA
+Sarah Robinette: PM for PostAuth

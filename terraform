@@ -1,0 +1,20 @@
+modules
+have source which can point another module or a resource
+
+
+resources
+ultimately what get created (single cloud resource)
+point to 'things' provided by the provider
+
+
+providers:
+
+aws, datadog, hashicorp, launchdarkly
+
+they provide an api to create resources
+
+
+data things:
+
+data (reference to the resource)
+locals: variables you define

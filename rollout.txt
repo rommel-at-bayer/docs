@@ -1,0 +1,13 @@
+when we need to rollout we need everything in place
+
+guardrails
+
+let's do it through inner-source
+
+
+
+stakeholders:
+
+- last two sprints
+- innovation sprint
+- synthetic testing

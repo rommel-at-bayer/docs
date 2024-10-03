@@ -1,0 +1,22 @@
+APM: Application Performance Monitoring
+RUM: Real User Monitoring
+
+AEM: Adobe Experience Manager
+
+
+farmer-alert-service:
+
+- farmer_exp_cpu_alert: High CPU Utilization (>70% per 5 minutes)
+- farmer_exp_mem_alert: High Memory Utilization (>70% per 5 minutes)
+- farmer_exp_error_alert: Failure Monitor (any 400s in the last 5 minutes in ECS)
+- farmer_exp_no_data_alert: Datadog Agent - ECS Fargate Data Inaccessible (Datadog not collecting data)
+- farmer_exp_uptime: Website Up/Down
+
+
+configurable per service: e.g. farmer-exp-ee
+
+
+
+User stories
+
+

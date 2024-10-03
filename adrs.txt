@@ -1,0 +1,26 @@
+https://github.com/bayer-int/farmer-exp-automation/blob/main/catalog-info.yaml
+
+https://github.com/bayer-int/innersource-workshop-documentation-template/blob/main/skeleton/.github/DISCUSSION_TEMPLATE/decision-record.yml
+
+
+existing:
+
+https://farmer-exp-docs.agro.services/docs/architecture/decision-records/latam-approach
+
+https://farmer-exp-docs.agro.services/docs/architecture/decision-records/launchdarkly-getter-functions
+
+https://farmer-exp-docs.agro.services/docs/architecture/decision-records/marketing-preferences
+
+https://farmer-exp-docs.agro.services/docs/architecture/decision-records/nx-monorepo-organization
+
+https://farmer-exp-docs.agro.services/docs/architecture/decision-records/post-auth-capability-separation
+
+https://farmer-exp-docs.agro.services/docs/architecture/decision-records/seamless-database
+
+https://farmer-exp-docs.agro.services/docs/architecture/decision-records/authentication-state
+
+
+related (?):
+
+https://github.com/bayer-int/farmer-exp-core/discussions/2964
+

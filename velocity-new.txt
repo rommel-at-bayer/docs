@@ -1,0 +1,38 @@
+Farmer Experience Contributor (new) same as 
+Farmer Experience Devs (existing)
+  AWS Dev: developer-role
+  AWS NP: external-role
+  AWS Prod: external-role
+  Datadog: Dev
+  Dome9: All - Read only
+  Fort Knox
+  Vault: Bastion and Farmer Exp Devs
+
+Farmer Experience Trusted Committer (new) same as
+Farmer Experience Admin (existing)
+  AWS Dev: all
+  AWS NP: all
+  AWS Prod: all
+  Datadog: Dev
+  Dome9: All - Read only
+  Fort Knox
+  Vault: Bastion and Farmer Exp Admin
+
+Farmer Experience Maintainer (new) same as
+Farmer Experience Admin (existing)
+  AWS Dev: all
+  AWS NP: all
+  AWS Prod: all
+  Datadog: Dev
+  Dome9: All - Read only
+  Fort Knox
+  Vault: Bastion and Farmer Exp Admin
+
+Farmer Experience External (existing)
+  AWS Dev: external-role
+  AWS NP: external-role
+  AWS Prod: external-role
+  Vault: Farmer Exp External
+
+Farmer Experience PM (existing)
+  Vault: Farmer Exp External

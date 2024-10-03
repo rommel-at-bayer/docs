@@ -1,0 +1,47 @@
+Override Priority Order
+
+process.env
+.env.[environment]
+.env
+
+When you need environment variables
+
+Local Development
+Build Time (Local + CI/CD)
+Runtime (Local + CI/CD)
+
+Vault Source 
+of Truth 
+(Github 
+Actions)
+
+Spectrum Source 
+of Truth 
+(spectrum.config)
+
+Application 
+Source of 
+Truth (.env)
+
+
+
+Future State:
+Spectrum file is the source of truth
+Use spectrum to generate env files to run and build 
+the application both locally and when deploying it
+Add NEXT_PUBLIC envs to spectrum file
+Write a script to read all the envs from the spectrum 
+file and use in the build and deploy
+When running locally and want to generate a .env file 
+or set local environment variables, use the vault 
+token to read the values in vault. If the user does not 
+have the permissions to read from vault, then it will 
+put blanks or leave out those env variables.
+.env can be modified to have envs locally overriden 
+if needed
+we will remove .env files from github
+spectrum should have the ability to pass an output 
+path for where to write the .env file
+https://docs.aws.amazon.com/AmazonECS/latest/
+developerguide/specifying-sensitive-data.html
+

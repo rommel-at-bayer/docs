@@ -1,0 +1,4 @@
+
+
+CP-2: Account Creation and Maintenance
+  account + auth: gigya + orbia

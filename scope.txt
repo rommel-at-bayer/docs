@@ -1,0 +1,101 @@
+Scope:
+Evaluate any active architecture decision record (ADRs) and migrate to Backstage
+Determine if an ADR can be codified to ensure checks are in place
+Determine process of handling discussions, converting discussions to ADRs, and enforcing ADRs
+Create rules through ESLint, GitHub Actions, Nx to enforce ADR
+Document guidelines that are outlined in ADR
+Enhance PR checks to run the new rules and update Nx generators to facilitate development
+
+Acceptance Criteria:
+All current ADRs are in Backstage
+Any ADRs that can be codified are built into the tooling
+Documentation for remaining ADRs are stored in Backstage
+
+
+1. Identify relevant ADRs and copy/move to Backstage (maybe all of them, we should review though)
+
+2. Go through every relevant ADR and determine if there are needed changes in the tools, or possibly add a new tool, to enforce those.
+  - The output of #2 is going to be a set of other stories to implement
+
+3. Create a process for creating and enforcing ADRs (e.g. PR checks), including documenting it. Enforcing can come from additions to e.g. Github Actions, NX generators
+
+
+
+
+Scope:
+Enhance integration with FX systems to utilize the alert service
+Determine process of capturing metrics on developer workflow
+Enhance production monitors and alerts in DataDog and identify ways to enable usage metrics through tools (Ex: heatmaps)
+Document process of adding more monitors and alerts
+Implement integration with feature management with these alerts
+
+Acceptance Criteria:
+All FX systems has an integration pattern with the alert service and is documented
+Metrics can be captured and measured that follows the development cycle 
+Feature flags are properly integrated with alerts 
+Production alerts are integrated with our Team's channels through the alert service
+
+
+How to measure incremental improvements  (DORA)
+
+0. Evaluate the alert service and current integrations. To be used by 1.
+
+1. Capture data and monitor performance in DataDog. It can come from multiple sources, e.g. synthetic tests, our infrastructure, Github Actions
+
+2. Standardize logs to be able to diagnose problems easier (e.g. from lambdas).
+
+3. Tying alerts into the monitors so we are notified of failures.
+
+4. Enable rollbacks (may include turning off a feature by using feature flags) when issues are detected.
+
+5. Have a dashboard where we can see all the different parts of the system and how they are performing. (e.g. CI/CD process is trending slow, backend responses are taking more time to retrieve data, etc.). Relevant of what we are trying to track, not just a bunch of numbers.
+
+How can we capture how long our CI/CD takes and can we capture baselines?
+How can we capture how long it takes for releases to occur?
+How often are we releasing?
+
+POC integration with GitHub Actions to capture our development times 
+Document a pattern for capturing metrics within our CI/CD so we can monitor if things are breaking or taking a long time
+
+https://github.com/bayer-int/farmer-exp-core/discussions/4190 (DORA metrics)
+
+
+
+
+
+NOTES regarding vault access and updates
+(First step to providing self service?)
+
+* Automate vault access and updates through Github Actions
+* Only maintainers can approve vault updates (can run the current script)
+* Only trusted committers can approve Vault access:
+
+  - One job will display what they are requesting (could be a file or single value), and the reason. This is an event from github, so a notification to one of the channels should happen at that time.
+  - Another job is the retrieval, which will be gated (approved by a trusted committer):
+  - Once approved they get the wrapped token (one time use, 30? mins of validity) with the secrets they requested.
+  - Logging mechanism (updates and reads need to be stored: S3?)
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

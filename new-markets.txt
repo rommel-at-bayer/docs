@@ -1,0 +1,45 @@
+OKR: 
+Increase the number of regions utilizing the experience platform
+
+Scope
+Packaging capabilities with features needed to work with any market
+Harmonizing shared tooling and functionality across the FX space (logging, error handling, data fetching, etc.)
+Add tooling and generators to setup new capabilities and integrations within the FX repositories
+Setting up playbooks for capabilities to extend their features to all markets
+Setup patterns to increase visibility into capabilities that has already been registered in FX platform
+Ensure capabilities can be reused for other countries
+
+Explanation :
+Document a pattern that decides on what makes up a capability and catalog existing ones so that other can leverage them.
+Based on these pattern we decide whether a capability can be shared with other countries
+If yes we share
+If not we should come up with a plan to make them ready
+create terms that make sense for current capabilities and platform ready capabilities
+Select a couple of capabilities and make them ready.
+Measure how many capabilities are ready
+Measure how many capabilities are used by each country
+Create a tool that helps to create a new capability
+This tool should create a skeleton structure that has all the basic necessities that makes up a capability.
+This tool can also help to enhance an existing capability to make it ready.
+Determine a good pattern for logging, error handling, data fetching
+Some thoughts: Override the default pattern(eg: console.log) so that any capability logging them will have same output.
+Determine how/where we should register them ?
+Document all these new tools and patterns
+
+
+Capture and package existing Farmer Experience capabilities
+
+* Document existing capabilities
+
+* Determine which capabilities are used/could be used by more than one country
+
+* Consolidate shared capabilities into packages
+
+
+Implement shared tooling for maturing capabilities
+
+* Implement packaged tools
+
+Setup playbook for registering capabilities into FX platform
+
+* Setup playbook 

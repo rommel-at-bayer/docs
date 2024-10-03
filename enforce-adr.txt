@@ -1,0 +1,9 @@
+ADRs that have been moved to Backstage
+Identify what types of tooling can be done to validate if the ADRs are being followed (Linting, Nx, etc.), add recommendation
+Dependent on ADR story to copy over the ADRs
+Identify good first use case to implement the tooling
+
+
+ADRs in Backstage has a recommended tooling / rule that can help enforce the ADRs
+Tooling for one use case has been identified
+Help Wanted to convert ADRs into enforced ADRs
